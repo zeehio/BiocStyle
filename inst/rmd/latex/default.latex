@@ -255,5 +255,8 @@ $endif$
 $for(include-after)$
 $include-after$
 
+$if(pandoc3821)$\newcounter{none} % for unnumbered tables
+$endif$
+
 $endfor$
 \end{document}
